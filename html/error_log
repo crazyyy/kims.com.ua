@@ -1,0 +1,5 @@
+[04-Oct-2011 12:28:20] PHP Fatal error:  Call to undefined function:  simplexml_load_file() in /home/kimscom/public_html/manager/includes/document.parser.class.inc.php(814) : eval()'d code on line 4
+[04-Oct-2011 12:28:22] PHP Fatal error:  Call to undefined function:  simplexml_load_file() in /home/kimscom/public_html/manager/includes/document.parser.class.inc.php(814) : eval()'d code on line 4
+[04-Oct-2011 12:29:27] PHP Fatal error:  Call to undefined function:  simplexml_load_file() in /home/kimscom/public_html/manager/includes/document.parser.class.inc.php(814) : eval()'d code on line 4
+[04-Oct-2011 12:29:46] PHP Fatal error:  Call to undefined function:  setrawcookie() in /home/kimscom/public_html/manager/includes/document.parser.class.inc.php(814) : eval()'d code on line 16
+[04-Oct-2011 12:29:49] PHP Fatal error:  Call to undefined function:  setrawcookie() in /home/kimscom/public_html/manager/includes/document.parser.class.inc.php(814) : eval()'d code on line 16
