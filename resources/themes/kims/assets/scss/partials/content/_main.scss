@@ -1,0 +1,554 @@
+
+/* ----- MAIN SECTION ----- */
+
+.main {
+  overflow: hidden;
+  background-color: grey;
+
+  &.nature {
+    background-color: #b2da66;
+
+    .m-fix::before {
+      height: 270%;
+      background: url('../images/grass-img.png') center bottom / cover no-repeat;
+
+      @include bp('1024') {
+        height: 145%;
+      }
+    }
+
+    .m-happened__tooltip i {
+      color: #b2da66;
+    }
+  }
+
+  &.tomato {
+    background-color: #e2774f;
+
+    .m-fix::before {
+      height: 178%;
+      background: url('../images/tomato-img.png') center bottom / contain no-repeat;
+    }
+
+    .m-happened__tooltip i {
+      transform: translate(-48%, -55%) rotate(30deg);
+      color: #e2774f;
+    }
+  }
+
+  &.drink {
+    background-color: #856f4c;
+
+    .m-fix::before {
+      height: 160%;
+      background: url('../images/coffee-img.png') center bottom / contain no-repeat;
+
+      @include bp('1024') {
+        height: 220%;
+      }
+    }
+
+    .m-happened__tooltip i {
+      color: #856f4c;
+    }
+  }
+
+  &.meat {
+    background-color: #d2728b;
+
+    .m-fix::before {
+      height: 150%;
+      background: url('../images/burger-img.png') center bottom / contain no-repeat;
+    }
+
+    .m-happened__tooltip i {
+      color: #d2728b;
+
+      &::before {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__happened {
+    position: absolute;
+    bottom: 170 / 600 * 100%; left: 50%;
+    transform: translateX(-50%);
+
+    @include bp('1024') {
+      bottom: 43 / 600 * 100%; left: 178 / 1280 * 100%;
+      transform: none;
+    }
+  }
+
+  &__fix {
+    position: absolute;
+    bottom: 22 / 600 * 100%; right: 0;
+
+    @include bp('1024') {
+      bottom: 43 / 600 * 100%; right: 0;
+    }
+  }
+}
+
+.m-fix {
+  width: 90%;
+  height: 15%;
+  border: 5px solid $bgColor-base;
+  border-right: none;
+
+  @include bp('1024') {
+    width: 620 / 1280 * 100%;
+    height: 238 / 800 * 100%;
+    border: 12px solid $bgColor-base;
+    border-right: none;
+  }
+
+  &:hover {
+    .m-fix__title {
+      color: $fontColor-blue;
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: -5px; left: -5px; bottom: -5px;
+    width: 110%;
+    border: 5px solid $bgColor-base;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+
+    @include bp('1024') {
+      top: -12px; left: -12px; bottom: -12px;
+      border: 12px solid $bgColor-base;
+      border-top: none;
+      border-right: none;
+    }
+  }
+
+  &__inner {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    z-index: 3;
+    overflow: hidden;
+
+    &:hover {
+      &::after {
+        left: 120%;
+        transition: all .55s cubic-bezier(.19, 1, .22, 1);
+      }
+    }
+
+    &::after {
+      background: rgba(255,255,255,0.3);
+      content: "";
+      height: 200%;
+      left: -50%;
+      opacity: .35;
+      position: absolute;
+      top: -50%;
+      transform: rotate(35deg);
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+      width: 100px;
+      z-index: -1;
+    }
+  }
+
+  &__wrapper {
+    display: block;
+    position: absolute;
+    top: 50%; left: 180 / 620 * 100%;
+    transform: translateY(-50%);
+    color: $fontColor-base;
+    text-decoration: none;
+
+    @include bp('1024') {
+      left: 254 / 620 * 100%;
+    }
+  }
+
+
+  &__title {
+    display: block;
+    position: relative;
+    margin: 0;
+    font-family: $TT-Firs-Black;
+    text-transform: uppercase;
+    font-size: 4.7vmin;
+    line-height: 1.1;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      font-size: 3vmax;
+    }
+
+    &::before {
+      position: absolute;
+      left: -26%; top: -4px;
+      font-family: $Kims-Font;
+      font-size: 12vmin;
+      line-height: 1;
+      content: '\e80a';
+
+      @include bp('1024') {
+        top: -7px;
+        font-size: 7.5vmax;
+      }
+    }
+  }
+
+  &__desc {
+    display: block;
+    margin-top: 2px;
+    font-family: $TT-Firs-Medium-Italic;
+    font-size: 2vmin;
+    line-height: 1.333;
+
+    @include bp('1024') {
+      margin-top: 8px;
+      font-size: 0.8vmax;
+    }
+  }
+}
+
+.m-happened {
+  width: 80%;
+  height: 40%;
+  js-display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include bp('1024') {
+    height: 62%;
+    width: 640 / 1280 * 100%;
+  }
+
+  &__tooltip {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $bgColor-base;
+      width: 80%; height: 50%;
+      border-radius: 50%;
+    }
+
+    i {
+      position: absolute;
+      top: 50%; left: 50%;
+      font-size: 5vmin;
+      line-height: 1.5;
+      transform: translate(-48%, -55%);
+      background-color: transparent;
+      z-index: 2;
+
+      @include bp('1024') {
+        font-size: 36px;
+      }
+    }
+  }
+
+  &__tooltip.uk {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 47%; left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $bgColor-base;
+      width: 70%; height: 20%;
+      border-radius: 50%;
+    }
+
+    i {
+      position: absolute;
+      top: 50%; left: 50%;
+      font-size: 5vmin;
+      line-height: 1.5;
+      transform: translate(-48%, -55%);
+      background-color: transparent;
+      z-index: 2;
+
+      @include bp('1024') {
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__tooltipWrapper {
+    display: inline-block;
+    position: absolute;
+    right: 50%; left: auto; top: -80%;
+    width: 370 / 75 * 100%;
+    padding: 0 20px 0 0;
+    font-family: $TT-Firs-Medium-Italic;
+    text-transform: none;
+    font-size: 1.7vmin;
+    line-height: 1.4;
+    opacity: 0.7;
+
+    @include bp('1024') {
+      top: -50%;
+      left: 50%; right: auto;
+      width: 400 / 75 * 100%;
+      padding: 0 0 0 35px;
+      font-size: 0.7vmax;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: auto; right: -3px; top: -1px;
+      width: 5px; height: 5px;
+      background-color: white;
+      border-radius: 50%;
+
+      @include bp('1024') {
+        left: -3px; right: auto; top: 3px;
+        width: 8px; height: 8px;
+      }
+    }
+
+    &::after {
+      content: '. . . . . . . . . . .';
+      position: absolute;
+      right: -5px; left: auto; top: -15px;
+      font-family: $TT-Firs-Bold;
+      transform: rotate(-90deg);
+      transform-origin: 100% 100%;
+      @include font-sizes(14px, 15px);
+
+      @include bp('768') {
+        content: '. . . . . . . . . . . .';
+      }
+
+      @include bp('1024') {
+        content: '. . . . . . . . . . . . . .';
+        left: 11px; right: auto; top: 7px;
+        transform: rotate(90deg);
+        transform-origin: 0% 0%;
+      }
+
+      @include bp('1366') {
+        content: '. . . . . . . . . . . . . .';
+      }
+
+      @include bp('1920') {
+        content: '. . . . . . . . . . . . . . . . . .';
+      }
+    }
+  }
+
+  &__title {
+    width: 100%;
+    margin: 0;
+    font-family: $TT-Firs-Black;
+    font-size: 11vmin;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    width: 62%;
+    font-size: 2.3vmin;
+    line-height: 1.3;
+
+    @include bp('1024') {
+      font-size: 1.15vmax;
+      line-height: 1.25;
+    }
+  }
+
+  &__more {
+  }
+}
+
+
+.price-more {
+  position: relative;
+  display: inline-block;
+  color: $fontColor-base;
+  text-decoration: none;
+  padding: 8px 10px 6px 30%;
+  border: 2px solid $bgColor-base;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+
+  @include bp('1024') {
+    padding: 18px 30px 15px 18%;
+    border: 9px solid $bgColor-base;
+  }
+
+  &:hover {
+    &::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+
+    color: $fontColor-blue;
+  }
+
+  &::before {
+    position: absolute;
+    top: 54%; left: 10px;
+    transform: translateY(-50%);
+    font-family: $Kims-Font;
+    content: '\e80c';
+    font-size: 6vmin;
+    line-height: 1;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      top: 50%;
+      left: 15px;
+      font-size: 4vmax;
+    }
+  }
+
+  &::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .35;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all .55s cubic-bezier(.19,1,.22,1);
+    width: 50px;
+    z-index: -1;
+  }
+
+  &__title {
+    display: block;
+    font-family: $TT-Firs-Black;
+    font-size: 2vmin;
+    line-height: 1.5;
+    text-transform: uppercase;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      font-size: 1.8vmax;
+    }
+  }
+
+  &__desc {
+    display: block;
+    font-size: 1.5vmin;
+    line-height: 1.25;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      font-size: 0.8vmax;
+    }
+  }
+}
+
+.h-more {
+  position: relative;
+  display: inline-block;
+  color: $fontColor-base;
+  text-decoration: none;
+  padding: 8px 20px 6px 14%;
+  border: 2px solid $bgColor-base;
+  z-index: 1;
+  overflow: hidden;
+
+  @include bp('1024') {
+    padding: 18px 30px 15px 12%;
+    border: 9px solid $bgColor-base;
+  }
+
+  &:hover {
+    &::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+
+    color: $fontColor-blue;
+  }
+
+  &::before {
+    position: absolute;
+    top: 54%; left: 10px;
+    transform: translateY(-50%);
+    font-family: $Kims-Font;
+    content: '\e80c';
+    font-size: 6vmin;
+    line-height: 1;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      top: 50%;
+      left: 15px;
+      font-size: 4vmax;
+    }
+  }
+
+  &::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .35;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all .55s cubic-bezier(.19,1,.22,1);
+    width: 50px;
+    z-index: -1;
+  }
+
+  &__title {
+    display: block;
+    font-family: $TT-Firs-Black;
+    font-size: 3.5vmin;
+    line-height: 1.2;
+    text-transform: uppercase;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      font-size: 1.8vmax;
+    }
+  }
+
+  &__desc {
+    display: block;
+    font-size: 1.8vmin;
+    line-height: 1.5;
+    will-change: color;
+    transition: color 0.5s;
+
+    @include bp('1024') {
+      font-size: 0.8vmax;
+    }
+  }
+}
+
+/* ----- end ABOUT SECTION ----- */

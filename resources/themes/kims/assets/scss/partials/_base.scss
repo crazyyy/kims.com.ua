@@ -1,0 +1,42 @@
+
+/* ----- BASE STYLES ----- */
+
+@charset 'utf-8';
+
+html {
+  font-size: $fontSize-base;
+  font-family: $fontFamily-base;
+  height: 100%;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $bgColor-base;
+  font-weight: $fontWeight-base;
+  line-height: $lineHeight-base;
+  color: $fontColor-base;
+  height: 100%;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.wrapper {
+  position: relative;
+  min-width: 310px;
+  min-height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* ----- end BASE STYLES ----- */

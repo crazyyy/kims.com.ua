@@ -1,0 +1,73 @@
+
+/* ----- FONT SIZES ----- */
+
+$fontSize-base: 16px; // SET BASE FONT SIZE
+$lineHeight-base: 1.5; // SET BASE LINE HEIGHT
+$fontWeight-base: 400; // SET BASE FONT WEIGHT
+
+/* ----- end FONT SIZES ----- */
+
+
+/* ----- FONT FAMILIES ----- */
+
+$Arial: Arial, sans-serif;
+
+// LIST OF FONTS
+$TT-Firs-Medium: "ttfirs-medium", Arial, sans-serif; // 500 MEDIUM
+$TT-Firs-Medium-Italic: "ttfirs-mediumital", Arial, sans-serif; // 500 MEDIUM ITALIC
+$TT-Firs-Bold: "ttfirs-bold", Arial, sans-serif; // 700 BOLD
+$TT-Firs-ExtraBold: "ttfirs-extrabold", Arial, sans-serif; // 800 BOLD
+$TT-Firs-Black: "ttfirs-black", Arial, sans-serif; // 900 BOLD
+
+$Kims-Font: 'kims';
+// end LIST OF FONTS
+
+$fontFamily-base: $TT-Firs-Medium; // SET BASE FONT FAMILY
+
+/* ----- end FONT FAMILIES ----- */
+
+
+/* ----- BACKGROUND COLORS ----- */
+
+// MAIN COLORS
+
+$bgColor-base: #fff; // SET BASE BACKGROUND COLOR
+$bgColor-orange: #e2774f; // orange
+$bgColor-blue: #78c5f4; // blue
+
+//GAME ELEMENT COLORS
+$g-base: #78c5f4;
+$g-text: #cccccc;
+$g-btn: #78c5f4;
+$g-c1: #78c5f4;
+$g-c2: #b2da66;
+$g-c3: #e2774f;
+$g-c4: #856f4c;
+$g-c5: #d2728b;
+
+// FONT COLORS
+
+$fontColor-base: rgba(255,255,255,1); // SET BASE TEXT COLOR
+$fontColor-baseOpacity5: rgba(255,255,255,0.5);
+$fontColor-baseOpacity7: rgba(255,255,255,0.7);
+
+$fontColor-w1: #cdecff;
+
+$fontColor-black: rgba(0,0,0,1);
+$fontColor-blackOpacity3: rgba(0,0,0,0.3);
+$fontColor-blackOpacity5: rgba(0,0,0,0.5);
+
+$fontColor-gray: rgb(153,153,153);
+$fontColor-grayOpacity7: rgba(201,201,201,0.7);
+
+$fontColor-blue: rgba(120,197,244,1);
+$fontColor-blue-2: #3EC7F6;
+
+$fontColor-orange: #e2774f; // orange
+
+$gray-1: #333;
+$gray-2: #999999;
+$gray-3: #f0f0f0;
+
+
+/* ----- end COLORS ----- */

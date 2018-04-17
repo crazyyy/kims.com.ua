@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin
+
+User-agent: Googlebot
+Disallow: /admin
+
+User-agent: yandex
+Disallow: /admin
+
+Host: www.kims.com.ua
+Sitemap: http://www.kims.com.ua/sitemap.xml

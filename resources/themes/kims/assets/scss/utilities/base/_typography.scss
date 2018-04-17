@@ -1,0 +1,140 @@
+/* ----- FONTS ----- */
+
+/* TT FIRS BLACK */
+@font-face {
+  font-family: 'ttfirs-black';
+  src:  url('../fonts/TT-Firs/typetype_-_ttfirs-black-webfont.woff2') format('woff2'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-black-webfont.woff') format('woff'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-black-webfont.ttf') format('truetype'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-black-webfont.svg#ttfirs-black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TT FIRS BOLD */
+@font-face {
+  font-family: 'ttfirs-bold';
+  src:  url('../fonts/TT-Firs/typetype_-_ttfirs-bold-webfont.woff2') format('woff2'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-bold-webfont.woff') format('woff'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-bold-webfont.ttf') format('truetype'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-bold-webfont.svg#ttfirs-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TT FIRS EXTRA BOLD */
+@font-face {
+  font-family: 'ttfirs-extrabold';
+  src: url('../fonts/TT-Firs/TTFirs-ExtraBold.woff2') format('woff2'),
+  url('../fonts/TT-Firs/TTFirs-ExtraBold.woff') format('woff'),
+  url('../fonts/TT-Firs/TTFirs-ExtraBold.ttf') format('truetype'),
+  url('../fonts/TT-Firs/TTFirs-ExtraBold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TT FIRS MEDIUM */
+@font-face {
+  font-family: 'ttfirs-medium';
+  src:  url('../fonts/TT-Firs/typetype_-_ttfirs-medium-webfont.woff2') format('woff2'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-medium-webfont.woff') format('woff'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-medium-webfont.ttf') format('truetype'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-medium-webfont.svg#ttfirs-medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TT FIRS MEDIUM ITALIC */
+@font-face {
+  font-family: 'ttfirs-mediumital';
+  src:  url('../fonts/TT-Firs/typetype_-_ttfirs-mediumitalic-webfont.woff2') format('woff2'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-mediumitalic-webfont.woff') format('woff'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-mediumitalic-webfont.ttf') format('truetype'),
+  url('../fonts/TT-Firs/typetype_-_ttfirs-mediumitalic-webfont.svg#ttfirs-mediumital') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* KIMS */
+
+@font-face {
+  font-family: 'kims';
+  src: url('../fonts/fontello/kims.eot');
+  src: url('../fonts/fontello/kims.eot#iefix') format('embedded-opentype'),
+  url('../fonts/fontello/kims.woff2') format('woff2'),
+  url('../fonts/fontello/kims.woff') format('woff'),
+  url('../fonts/fontello/kims.ttf') format('truetype'),
+  url('../fonts/fontello/kims.svg#kims') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'kims';
+    src: url('../font/kims.svg?11583417#kims') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "kims";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-fashion:before { content: '\e800'; } /* '' */
+.icon-kims-logo:before { content: '\e801'; } /* '' */
+.icon-logo:before { content: '\e802'; } /* '' */
+.icon-meat:before { content: '\e803'; } /* '' */
+.icon-nature:before { content: '\e804'; } /* '' */
+.icon-networking:before { content: '\e805'; } /* '' */
+.icon-social-media:before { content: '\e806'; } /* '' */
+.icon-telephone:before { content: '\e807'; } /* '' */
+.icon-three:before { content: '\e808'; } /* '' */
+.icon-tomato:before { content: '\e809'; } /* '' */
+.icon-tool:before { content: '\e80a'; } /* '' */
+.icon-t-shirt:before { content: '\e80b'; } /* '' */
+.icon-web:before { content: '\e80c'; } /* '' */
+.icon-arrows-mist:before { content: '\e80d'; } /* '' */
+.icon-arrow-go:before { content: '\e80e'; } /* '' */
+.icon-arrows-left:before { content: '\e80f'; } /* '' */
+.icon-arrows-right:before { content: '\e810'; } /* '' */
+.icon-bathroom:before { content: '\e811'; } /* '' */
+.icon-drink:before { content: '\e812'; } /* '' */
+.icon-location:before { content: '\e813'; } /* '' */
+.icon-lang:before { content: '\e814'; } /* '' */
+.icon-user:before { content: '\e815'; } /* '' */
+
+/* ----- end FONTS ----- */

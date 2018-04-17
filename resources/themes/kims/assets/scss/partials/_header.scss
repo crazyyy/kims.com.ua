@@ -1,0 +1,596 @@
+
+/* ----- HEADER STYLES ----- */
+
+.header {
+  position: fixed;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 90%; height: 80px;
+  z-index: 4;
+  user-select: none;
+
+  @include bp('1024') {
+    top: 0; left: 0;
+    width: 100%; height: 130px;
+    transform: none;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 50%; left: 0;
+    display: block;
+    width: 55px; height: 55px;
+    transform: translateY(-50%);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include bp('1024') {
+      left: 25px;
+      width: 80px; height: 80px;
+    }
+
+    &[data-section="white"] {
+      background-image: url('../images/logo.png');
+    }
+
+    &[data-section="others"] {
+      background-image: url('../images/logo-light.png');
+    }
+  }
+
+  &__cabinet {
+    display: none !important;
+    position: absolute;
+    top: 45%;
+    left: 27.6%;
+    transform: translateX(-50%);
+
+    @include bp('1024') {
+      display: block !important;
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    left: 38%; top: 36.5%;
+    transform: translateX(-50%);
+
+    @include bp('1024') {
+      top: 39%;
+      left: 470 / 1280 * 100%;
+    }
+  }
+
+  &__languages {
+    position: absolute;
+    left: 60%; top: 36.5%;
+    transform: translateX(-50%);
+
+    @include bp('1024') {
+      top: 39%;
+      left: 44%;
+    }
+  }
+
+  &__prom {
+    display: none;
+    position: relative;
+
+    &[data-section='white'] {
+      border: 4px solid white;
+      color: white;
+    }
+
+    &[data-section='blue'] {
+      border: 4px solid $bgColor-blue;
+      color: $bgColor-blue;
+    }
+
+    @include bp('480') {
+      display: block;
+      position: absolute;
+      left: 52%;
+      top: 28%;
+      width: 24%;
+      height: 50%;
+      border: 4px solid white;
+      cursor: pointer;
+    }
+
+
+    @include bp('1024') {
+      width: 18%;
+      top: 22%;
+      padding: 0 25px;
+      border: 9px solid white;
+      font-size: 1.3vmax;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 3%; top: -48%;
+      width: 111 / 273 * 100%; height: 148%;
+      background: url('../images/washer-img.png') no-repeat;
+      background-size: cover;
+    }
+  }
+
+  &__prom-inner {
+    js-display: flex; display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0; right: 0;
+    height: 100%; width: 100%;
+    padding: 0 10px;
+    overflow: hidden;
+    font-family: $TT-Firs-Black;
+    font-size: 2vmin;
+    line-height: 1;
+    text-transform: uppercase;
+    //display: none;
+    js-display: flex;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include bp('1024') {
+      padding: 0 25px;
+      font-size: 1.3vmax;
+    }
+
+    &:hover::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+
+    &::after {
+      background: #fff;
+      content: "";
+      height: 155px;
+      left: -75px;
+      opacity: .35;
+      position: absolute;
+      top: -50px;
+      transform: rotate(35deg);
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+      width: 50px;
+      z-index: -1;
+    }
+  }
+
+  &__contacts {
+    position: absolute;
+    top: 50%; right: 0px;
+    transform: translateY(-50%);
+
+    @include bp('1024') {
+      right: 25px;
+    }
+  }
+}
+
+.h-nav, .h-dep, .h-lang, .h-cab {
+  font-family: $TT-Firs-Bold;
+  @include font-sizes(9px, 2.5);
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @include bp('1024') {
+    @include font-sizes(9px, 3.444);
+  }
+
+  &[data-section="white"] {
+    color: $fontColor-blackOpacity5;
+
+    &:hover {
+      color: $fontColor-black;
+    }
+
+    &::before {
+      color: $fontColor-blue;
+    }
+  }
+
+  &[data-section="others"] {
+    color: $fontColor-baseOpacity7;
+
+    &:hover {
+      color: $fontColor-base;
+    }
+
+    &::before {
+      color: $fontColor-base;
+    }
+  }
+
+  &__title {
+    cursor: pointer;
+    position: relative;
+
+    &[data-section="white"] {
+      color: $fontColor-blackOpacity5;
+
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &::before {
+        color: $fontColor-blue;
+      }
+    }
+
+    &[data-section="others"] {
+      color: $fontColor-baseOpacity7;
+
+      &:hover {
+        color: $fontColor-base;
+      }
+
+      &::before {
+        color: $fontColor-base;
+      }
+    }
+
+    &::before {
+      position: absolute;
+      bottom: 1px; left: -19px;
+      font-family: $Kims-Font;
+      content: '\e808';
+    }
+  }
+
+  &__list {
+    display: none;
+    margin: 0; padding: 0;
+    list-style-type: none;
+
+    &[data-section="white"] {
+      color: $fontColor-blackOpacity3;
+    }
+
+    &[data-section="others"] {
+      color: $fontColor-baseOpacity7;
+    }
+  }
+
+  &__item {
+    position: relative;
+    cursor: pointer;
+
+    &[data-section="white"] {
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &.active {
+        color: $fontColor-black;
+      }
+    }
+
+    &[data-section="others"] {
+      &:hover {
+        color: $fontColor-base;
+      }
+
+      &.active {
+        color: $fontColor-base;
+      }
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &::before {
+      content: '.';
+      position: absolute;
+      top: -60.5%; left: 0;
+      color: inherit;
+    }
+  }
+}
+
+.h-cab {
+  display: block;
+  line-height: 1.6;
+
+  &::before {
+    @include font-sizes(13px, 1.7);
+  }
+
+  &[data-active='true'] {
+    display: inline-block;
+  }
+
+  &[data-active='false'] {
+    display: none;
+  }
+
+  &[data-section='white'] {
+
+    &:hover {
+      color: $fontColor-base;
+    }
+
+    &.active {
+      color: $fontColor-base;
+    }
+
+    @include bp('1024') {
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &.active {
+        color: $fontColor-black;
+      }
+    }
+  }
+
+  &[data-section="others"] {
+    &:hover {
+      color: $fontColor-black;
+    }
+
+    &.active {
+      color: $fontColor-black;
+    }
+
+    @include bp('1024') {
+      &:hover {
+        color: $fontColor-base;
+      }
+
+      &.active {
+        color: $fontColor-base;
+      }
+    }
+  }
+
+
+  &::before {
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: -21px;
+    font-family: $Kims-Font;
+    content: '\e815';
+    @include font-sizes(11px, 1);
+
+    @include bp('1024') {
+      line-height: 1.6;
+      top: -2px;
+    }
+  }
+}
+
+.h-lang {
+
+  &__title {
+    &::before {
+      left: -22px;
+      content: '\e814';
+      @include font-sizes(14px, 1.7);
+
+      @include bp('1024') {
+        line-height: 2.3;
+      }
+    }
+
+    span {
+      &[data-device='mobile'] {
+        @include bp('1024') {
+          display: none;
+        }
+      }
+
+      &[data-device='desktop'] {
+        display: none;
+
+        @include bp('1024') {
+          display: inline
+        }
+      }
+    }
+  }
+
+  &__item {
+    span {
+      &[data-device='mobile'] {
+        @include bp('1024') {
+          display: none;
+        }
+      }
+
+      &[data-device='desktop'] {
+        display: none;
+
+        @include bp('1024') {
+          display: inline
+        }
+      }
+    }
+  }
+}
+
+.h-dep {
+  position: relative;
+  width: 85px;
+
+  &__title {
+    &::before {
+      content: '\e813';
+      @include font-sizes(12px, 22px);
+
+      @include bp('1024') {
+        @include font-sizes(12px, 30px);
+      }
+    }
+  }
+
+  &__list {
+    position: absolute
+  }
+
+  &__item {
+    margin-bottom: 3px;
+    min-width: 100px;
+    padding: 0 15px;
+    border: 4px solid white;
+    line-height: 2.5
+  }
+}
+
+.h-contacts {
+  js-display: flex; display: flex;
+  flex-direction: column;
+  font-family: $TT-Firs-Bold;
+  @include font-sizes(9px, 1.666);
+  text-transform: uppercase;
+
+  @include bp('1024') {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+
+    @include bp('1024') {
+      display: inline-block;
+    }
+  }
+
+  &__departments {
+    display: inline-block;
+    order: 3;
+
+    @include bp('1024') {
+      order: 0;
+      margin-right: 40px
+    }
+  }
+
+  &__link {
+    margin: 0 0 3px 0;
+    position: relative;
+
+    @include bp('1024') {
+      margin: 0 40px 0 0;
+    }
+
+    &::before {
+      position: absolute;
+      bottom: 1px; left: -19px;
+      font-family: $Kims-Font;
+      content: '\e807';
+      color: $fontColor-base;
+    }
+
+    &[data-section="others"] {
+      color: $fontColor-baseOpacity7;
+
+      &:hover {
+        color: $fontColor-base;
+      }
+    }
+
+    &[data-section="blue"] {
+      color: $fontColor-baseOpacity5;
+
+      &:hover {
+        color: $fontColor-base;
+      }
+    }
+
+    &[data-section="white"] {
+      color: $fontColor-blackOpacity5;
+
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &::before {
+        color: $fontColor-blue;
+      }
+    }
+
+    &[data-section="map"] {
+      color: $fontColor-blackOpacity5;
+
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &::before {
+        color: $fontColor-blue;
+      }
+    }
+  }
+
+  &__fb {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      bottom: 1px; left: -19px;
+      font-family: $Kims-Font;
+      content: '\e806';
+      color: $fontColor-base;
+    }
+
+    &[data-section="others"] {
+      color: $fontColor-baseOpacity7;
+      &:hover {
+        color: $fontColor-base;
+      }
+    }
+
+    &[data-section="blue"] {
+      color: $fontColor-baseOpacity5;
+
+      &:hover {
+        color: $fontColor-base;
+      }
+    }
+
+    &[data-section="white"] {
+      color: $fontColor-blackOpacity5;
+
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &::before {
+        color: $fontColor-blue;
+      }
+    }
+
+    &[data-section="map"] {
+      color: $fontColor-blackOpacity5;
+
+      &:hover {
+        color: $fontColor-black;
+      }
+
+      &::before {
+        color: $fontColor-blue;
+      }
+    }
+  }
+
+  &__cabinet {
+    position: relative;
+    order: 4;
+
+    @include bp('1024') {
+      display: none !important;
+    }
+  }
+}

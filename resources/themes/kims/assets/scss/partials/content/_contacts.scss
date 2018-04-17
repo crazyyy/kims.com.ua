@@ -1,0 +1,681 @@
+
+/* ----- CONTACTS SECTION ----- */
+
+#js-fullpage {
+  z-index: 3;
+}
+
+.contacts {
+  background: url(../images/contacts-bg.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+
+  &__map {
+    position: absolute;
+    z-index: 1;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    //opacity: .3;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 2;
+      width: 100%; height: 100%;
+      background-color: rgba(255,255,255,0.6)
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    js-display: flex;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  &__inner {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+    padding: 100px 20px 50px;
+
+    @include bp('1024') {
+      max-width: 1100px;
+      padding: 150px 30px 50px;
+    }
+  }
+
+  &__top {
+    js-display: flex;
+    display: flex;
+    flex-direction: column;
+
+    @include bp('1024') {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__city {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+
+    @include bp('1024') {
+      width: 54%;
+    }
+  }
+
+  &__city-image {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    width: 110px;
+    height: 70px;
+    background: transparent center center / cover no-repeat;
+
+    @include bp('1024') {
+      width: 184px;
+      height: 120px;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 130px; height: 90px;
+      border: 4px solid $bgColor-blue;
+
+      @include bp('1024') {
+        width: 208px; height: 144px;
+        border: 7px solid $bgColor-blue;
+      }
+    }
+  }
+
+  &__city-title {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+    font-family: $TT-Firs-Black;
+    @include font-sizes(18px, 1.1);
+    text-transform: uppercase;
+    color: $bgColor-blue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include bp('1024') {
+      padding-left: 37px;
+      @include font-size(35px);
+    }
+  }
+
+  &__cities-list {
+    width: 100%;
+    margin: 40px 0 0;
+    padding: 0;
+    list-style-type: none;
+    columns: 150px 2;
+    font-family: $TT-Firs-Black;
+    @include font-sizes(12px, 1.4);
+    text-transform: uppercase;
+    color: $bgColor-blue;
+    opacity: 0.5;
+
+    @include bp('1024') {
+      width: 42%;
+      margin: 0;
+      @include font-sizes(23px, 1.8);
+    }
+  }
+
+  &__cities-item {
+    cursor: pointer;
+
+    &.active {
+      display: none;
+    }
+  }
+
+  &__desc {
+    width: 100%;
+    margin-top: 30px;
+    font-family: $TT-Firs-Medium;
+    @include font-sizes(14px, 1.25);
+    color: $gray-2;
+
+    @include bp('1024') {
+      width: 50%;
+    }
+  }
+
+  &__info {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    @include font-size(0px);
+
+    @include bp('1024') {
+      width: 60%;
+    }
+  }
+
+  &__info-item {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: $TT-Firs-Black;
+    @include font-size(16px);
+    text-transform: uppercase;
+    color: $bgColor-blue;
+    padding-left: 50px;
+    background-image: url('../images/contacts-sprite.png');
+    background-repeat: no-repeat;
+
+    &:not(:last-of-type) {
+      margin-right: 50px;
+    }
+
+    &[data-info='address'] {
+      height: 40px;
+      line-height: 40px;
+      background-position: 0px 0px
+    }
+
+    &[data-info='email'] {
+      height: 31px;
+      line-height: 31px;
+      background-position: 0px -111px
+    }
+
+    &[data-info='phone'] {
+      height: 42px;
+      line-height: 42px;
+      background-position: 0px -55px
+    }
+  }
+
+  &__bottom {
+    margin-top: 50px;
+    @include font-size(0px)
+  }
+
+
+  &__bottom-item {
+    width: 280px;
+    vertical-align: top;
+
+    &:not(:last-of-type) {
+      margin: 0 24px 35px 0
+    }
+
+    @include bp('1024') {
+      width: auto;
+    }
+  }
+
+  &__bottom-right {
+    width: 42%;
+  }
+
+  &__more-popup {
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    right: -4px;
+
+    @include bp('768') {
+      right: -9px;
+    }
+  }
+
+  &__popup {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    min-height: 100%;
+  }
+}
+
+.contact-with-us {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  padding: 0;
+  background-color: $gray-3;
+  border: none; outline: none;
+  font-family: $TT-Firs-Black;
+  text-transform: uppercase;
+  @include font-size(0px);
+  color: $bgColor-blue;
+
+  span {
+    display: inline-block;
+    padding: 0 17px 0 95px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    @include font-sizes(12px, 46px);
+
+    @include bp('1024') {
+      @include font-sizes(14px, 46px);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 200%;
+      left: -50%;
+      opacity: .35;
+      top: -50%;
+      -webkit-transform: rotate(35deg);
+      transform: rotate(35deg);
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+      width: 50px;
+      z-index: -1;
+      background-color: white;
+    }
+  }
+
+  &:hover {
+    & span::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: -7px;
+    bottom: 0;
+    width: 89px; height: 73px;
+    background: url('../images/contact-letter.png') center center / cover no-repeat;
+  }
+}
+
+.contact-addresses {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  padding: 0;
+  background-color: $bgColor-blue;
+  border: none; outline: none;
+  font-family: $TT-Firs-Black;
+  text-transform: uppercase;
+  @include font-size(0px);
+  color: white;
+
+  span {
+    display: inline-block;
+    padding: 0 17px 0 105px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    @include font-sizes(12px, 46px);
+
+    @include bp('1024') {
+      @include font-sizes(14px, 46px);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 200%;
+      left: -50%;
+      opacity: .35;
+      top: -50%;
+      -webkit-transform: rotate(35deg);
+      transform: rotate(35deg);
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+      width: 50px;
+      z-index: -1;
+      background-color: white;
+    }
+  }
+
+  &:hover {
+    & span::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 9px;
+    bottom: 0;
+    width: 78px; height: 58px;
+    background: url('../images/addresses-icon.png') center center / cover no-repeat;
+  }
+}
+
+.c-more {
+  margin-top: 1.5vmin;
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  color: $fontColor-blue;
+  text-decoration: none;
+  padding: 1.5vmin 3.5vmin 1.5vmin 9.5vmin;
+  border: 1vmin solid $fontColor-blue;
+  overflow: hidden;
+  z-index: 9999;
+
+  &:hover {
+    &::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+  }
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 6.5%;
+    transform: translateY(-50%);
+    font-family: $Kims-Font;
+    content: '\e80c';
+    font-size: 5.5vmin;
+    line-height: 1;
+  }
+
+  &::after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .7;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all .55s cubic-bezier(.19,1,.22,1);
+    width: 50px;
+    z-index: -1;
+  }
+
+  &__title {
+    display: block;
+    font-family: $TT-Firs-Black;
+    font-size: 2.5vmin;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    display: block;
+    font-size: 1.3vmin;
+    line-height: 1.4;
+  }
+}
+
+.contact-franchise {
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  color: $fontColor-orange;
+  border: 4px solid $fontColor-orange;
+  padding: 0;
+  background-color: rgba(226, 119, 79, 0.2);
+  outline: none;
+  font-family: $TT-Firs-Black;
+  text-transform: uppercase;
+  @include font-size(0px);
+
+  &:hover {
+    & span::after {
+      left: 120%;
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+    }
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 12px; bottom: 0px;
+    z-index: 2;
+    width: 68px; height: 68px;
+    background: url("../images/franchise-bg.png") center bottom / contain no-repeat;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0 25px 0 110px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    @include font-sizes(12px, 36px);
+
+    @include bp('1024') {
+      @include font-sizes(14px, 36px);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 200%;
+      left: -50%;
+      opacity: .35;
+      top: -50%;
+      -webkit-transform: rotate(35deg);
+      transform: rotate(35deg);
+      transition: all .55s cubic-bezier(.19,1,.22,1);
+      width: 50px;
+      z-index: -1;
+      background-color: white;
+    }
+  }
+
+}
+
+.contacts-simple {
+
+  .main-popup__title {
+    font-size: 10vmin;
+
+    .contacts__city-name {
+      margin-top: 10px;
+    }
+  }
+
+  &__content {
+    margin: 30px 0 0;
+    padding: 0;
+    list-style-type: none;
+    js-display: flex;
+    display: flex;
+    flex-direction: column;
+
+    @include bp('1024') {
+      margin-top: 60px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__column {
+    position: relative;
+
+    &[data-column='categories'] {
+      $width: (160 / 815) * 100%;
+
+      flex: 0 1 $width;
+    }
+
+    &[data-column='addresses'] {
+      $width: (340 / 815) * 100%;
+
+      flex: 0 1 $width;
+      max-height: 300px;
+      padding-right: 20px;
+      overflow-y: auto;
+    }
+
+    &[data-column='map'] {
+      $width: (240 / 815) * 100%;
+
+      flex: 0 1 $width;
+    }
+
+    &:not(:first-of-type) {
+      margin-top: 50px;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -25px; left: 50%;
+        transform: translateX(-50%);
+        width: 70%; height: 1px;
+        background-color: rgba(255,255,255,0.4);
+
+        @include bp('1024') {
+          content: none;
+        }
+      }
+
+      @include bp('1024') {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__cat-list {
+    margin: 0; padding: 0; list-style-type: none;
+    font-family: $TT-Firs-Black;
+    @include font-sizes(14px, 1.25);
+    text-transform: uppercase;
+    color: white;
+  }
+
+  &__cat-item {
+    cursor: pointer;
+
+    &:not(:first-of-type) {
+      margin-top: 25px;
+    }
+
+    &.active {
+      opacity: .5;
+    }
+  }
+
+  &__addresses-list {
+    margin: 0; padding: 0; list-style-type: none; display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &__addresses-item {
+    cursor: pointer;
+    color: white;
+
+    &:not(:first-of-type) {
+      margin-top: 30px;
+    }
+  }
+
+  &__addresses-title {
+    font-family: $TT-Firs-ExtraBold;
+    @include font-sizes(16px, 1.25);
+    position: relative;
+
+    &__map-marker {
+      @include font-sizes(11px, 1);
+      position: relative;
+      bottom: 2px;
+      left: 5px;
+      display: none;
+      font-weight: normal;
+      font-family: $TT-Firs-Medium;
+    }
+
+    &:hover {
+      .contacts-simple__addresses-title__map-marker {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__addresses-content {
+    margin-top: 10px;
+    font-family: $TT-Firs-Medium;
+    @include font-sizes(14px, 1.25);
+  }
+
+  &__map {
+    height: 300px;
+  }
+}
+
+#google-map {
+  width: 100%;
+  height: 100%;
+  color: $fontColor-gray;
+}
+
+//--------------
+.map-content {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.parent-infowindow {
+  overflow: visible!important;
+  border:none !important;
+  pointer-events:none;
+  cursor: pointer;
+}
+.infowindow {
+  position: absolute;
+  top: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10.5vmin;
+    height: auto
+  }
+}
+
+.maps-content{
+  padding-left: 14vmin;
+  box-sizing: border-box;
+}
+.maps-town{
+  position: relative;
+  z-index:1;
+  margin-top: 4.5vmin;
+  box-sizing: border-box;
+  font-family: $TT-Firs-Black;
+  font-size: 4.4vmin; line-height: 1;
+  color: $fontColor-blue-2;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.maps-text{
+  position: relative;
+  z-index:1;
+  margin-top: 10px;
+  color: $fontColor-gray;
+  @include font-sizes(12px, 1.4);
+  width: 300px;
+}
+/* ----- end CONTACTS SECTION ----- */

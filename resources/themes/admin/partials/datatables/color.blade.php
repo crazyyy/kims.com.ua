@@ -1,0 +1,1 @@
+<div class='color-preview text-center' style='background: {!! $color !!};'></div>

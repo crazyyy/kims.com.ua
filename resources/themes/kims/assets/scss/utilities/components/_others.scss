@@ -1,0 +1,135 @@
+/* ----- OTHERS ----- */
+
+.preloader {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: #78c5f4;
+  z-index: 9999;
+  opacity: 0; visibility: hidden;
+  will-change: opacity, visibility;
+  transition: all 0.3s;
+
+  &[data-active] {
+    opacity: 1; visibility: visible;
+  }
+
+  &__wrapper {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__loader {
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+
+    &::before, &::after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation: 0.95s infinite ease-in-out;
+      -o-animation: 0.95s infinite ease-in-out;
+      -ms-animation: 0.95s infinite ease-in-out;
+      -webkit-animation: 0.95s infinite ease-in-out;
+      -moz-animation: 0.95s infinite ease-in-out;
+    }
+
+    &::before {
+      border: 2px solid rgb(255,255,255);
+      opacity: 0;
+      animation-name: cssload-pulse;
+      -o-animation-name: cssload-pulse;
+      -ms-animation-name: cssload-pulse;
+      -webkit-animation-name: cssload-pulse;
+      -moz-animation-name: cssload-pulse;
+
+    }
+
+    &::after {
+      background-color: rgb(255,255,255);
+      animation-name: cssload-pulse-2;
+      -o-animation-name: cssload-pulse-2;
+      -ms-animation-name: cssload-pulse-2;
+      -webkit-animation-name: cssload-pulse-2;
+      -moz-animation-name: cssload-pulse-2;
+    }
+  }
+
+  &__text {
+    font-family: $TT-Firs-Black;
+    @include font-sizes(22px, 4);
+    text-transform: uppercase;
+  }
+}
+
+@keyframes cssload-pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 0; }
+  100% { transform: scale(1.3); opacity: 0; }
+}
+
+@-o-keyframes cssload-pulse {
+  0% { -o-transform: scale(1); opacity: 1; }
+  50% { -o-transform: scale(1.3); opacity: 0; }
+  100% { -o-transform: scale(1.3); opacity: 0; }
+}
+
+@-ms-keyframes cssload-pulse {
+  0% { -ms-transform: scale(1); opacity: 1; }
+  50% { -ms-transform: scale(1.3); opacity: 0; }
+  100% { -ms-transform: scale(1.3); opacity: 0; }
+}
+
+@-webkit-keyframes cssload-pulse {
+  0% { -webkit-transform: scale(1); opacity: 1; }
+  50% { -webkit-transform: scale(1.3); opacity: 0; }
+  100% { -webkit-transform: scale(1.3); opacity: 0; }
+}
+
+@-moz-keyframes cssload-pulse {
+  0% { -moz-transform: scale(1); opacity: 1; }
+  50% { -moz-transform: scale(1.3); opacity: 0; }
+  100% { -moz-transform: scale(1.3); opacity: 0; }
+}
+
+@keyframes cssload-pulse-2 {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
+
+@-o-keyframes cssload-pulse-2 {
+  0% { -o-transform: scale(1); }
+  50% { -o-transform: scale(0.7); }
+  100% { -o-transform: scale(1); }
+}
+
+@-ms-keyframes cssload-pulse-2 {
+  0% { -ms-transform: scale(1); }
+  50% { -ms-transform: scale(0.7); }
+  100% { -ms-transform: scale(1); }
+}
+
+@-webkit-keyframes cssload-pulse-2 {
+  0% { -webkit-transform: scale(1); }
+  50% { -webkit-transform: scale(0.7); }
+  100% { -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes cssload-pulse-2 {
+  0% { -moz-transform: scale(1); }
+  50% { -moz-transform: scale(0.7); }
+  100% { -moz-transform: scale(1); }
+}
+
+/* ----- end OTHERS ----- */

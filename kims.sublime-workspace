@@ -1,0 +1,1230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bosx",
+				"box-shadow"
+			],
+			[
+				"back",
+				"backups\tfilters.js"
+			],
+			[
+				"resi",
+				"resize\t.resize()"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"print",
+				"print_r($admin\t(index.php)"
+			],
+			[
+				"light",
+				"lighten\tlighten()"
+			],
+			[
+				"category",
+				"category_menu\t(main.scss)"
+			],
+			[
+				"coun",
+				"count_rooms"
+			],
+			[
+				"price_e",
+				"price_euro\t(actions.php)"
+			],
+			[
+				"show",
+				"show_etalon"
+			],
+			[
+				"price_",
+				"price_usd\t(actions.php)"
+			],
+			[
+				"read",
+				"ready\tjQuery(document).ready"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"cl",
+				"cl\tconsole.log"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"prope",
+				"property\t(main.js)"
+			],
+			[
+				"re",
+				"ready\t$(document).ready"
+			],
+			[
+				"date",
+				"dateHeight"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"ico-",
+				"ico-search.png\t(main.scss)"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"lang-",
+				"lang-eng.png\tw:25 h:15"
+			],
+			[
+				"lan",
+				"lang-rus.png\tw:25 h:15"
+			],
+			[
+				"ea",
+				"each\t$.each()"
+			],
+			[
+				"css",
+				"css\t.css() - multiple"
+			],
+			[
+				"ch",
+				"children\t.children()"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"bro",
+				"brown-wth-border"
+			],
+			[
+				"ho",
+				"servicecat-homerepair.png\tw:31 h:31"
+			],
+			[
+				"fi",
+				"find\t.find()"
+			],
+			[
+				"ico-pa",
+				"ico-pay-visa.png\tw:50 h:30"
+			],
+			[
+				"logo",
+				"logoHeight"
+			],
+			[
+				"eleme",
+				"elementWidth"
+			],
+			[
+				"fade",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"thu",
+				"thumb_width"
+			],
+			[
+				"first",
+				"firstLevelHref"
+			],
+			[
+				"ha",
+				"hamburger-close.png\tw:58 h:59"
+			],
+			[
+				"active",
+				"active-li"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"transpa",
+				"transparent"
+			],
+			[
+				"hea",
+				"header.png\tw:1250 h:150"
+			],
+			[
+				"attr",
+				"attr\t.attr() - single"
+			],
+			[
+				"fa",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"mail",
+				"mailupload.php"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"lis",
+				"lisp-i\tlist-style-position: inside;"
+			],
+			[
+				"bgz",
+				"bgsz-ct\tbackground-size: contain;"
+			],
+			[
+				"ff",
+				"ff-a\tfont-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"td",
+				"td-l\ttext-decoration: line-through;"
+			],
+			[
+				"border-co",
+				"border-collapse"
+			],
+			[
+				"la",
+				"last-child  (pseudo-class)"
+			],
+			[
+				"border",
+				"border-image: "
+			],
+			[
+				"bord",
+				"border-image:   (property)"
+			],
+			[
+				"n",
+				"nth-child(  (pseudo-class)"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"trs",
+				"trs\ttransition: ${1:prop} ${2:time};"
+			],
+			[
+				"imp",
+				"@import\t@import url(${0});"
+			],
+			[
+				"li",
+				"lighten(color, 10%)"
+			],
+			[
+				"article-",
+				"article-title"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"list-style-",
+				"list-style-position"
+			],
+			[
+				"liststyle",
+				"list-style-type"
+			],
+			[
+				"box-z",
+				"-moz-box-sizing:   (property)"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fff",
+				"F0F0F0"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"op",
+				"op:ms\t-ms-filter:opacity"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"bor",
+				"border-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 64,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "css",
+		"selected_items":
+		[
+			[
+				"css",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"backup",
+				"AutoBackups: Open file backup"
+			],
+			[
+				"auto",
+				"AutoFileName: Quick Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"emme",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"pack",
+				"Package Control: Discover Packages"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SASS to current type"
+			],
+			[
+				"emmet",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet enc",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"emmet en",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tor",
+				"TortoiseSVN: Commit"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"wo",
+				"WordPress: Open Config File"
+			],
+			[
+				"snip de",
+				"Snippet: desktop  laptop"
+			],
+			[
+				"sni mo",
+				"Snippet: smartphone"
+			],
+			[
+				"snipe",
+				"Snippet: :focus"
+			],
+			[
+				"snip",
+				"Snippet: ipad"
+			],
+			[
+				"clea",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"live",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"qi",
+				"Git: Quick Commit"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gut",
+				"Git: Quick Commit"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"gi",
+				"Git: Push"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"subl",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"colo",
+				"BracketHighlighter: Toggle Global Enable"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+			"restart",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Works/Verstka/kims.com.ua"
+	],
+	"file_history":
+	[
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/footer.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/page-products.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/front-page.php",
+		"/D/Works/Verstka/waycon.ru/assets/scss/main.scss",
+		"/D/Works/Verstka/waycon.ru/wordpress/sxd/backup/waycon.sql",
+		"/D/DBNAME.sql",
+		"/D/Works/Verstka/vinnytsianews.com/p284179_mb8.sql",
+		"/D/evaku.sql",
+		"/D/demo.saitobaza.ru.sql",
+		"/D/p284179_demo7.sql",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/sidebar.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/index.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/header.php",
+		"/D/Works/Verstka/waycon.ru/html/products.html",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/page.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/category.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/loop.php",
+		"/D/Works/Verstka/waycon.ru/html/category.html",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/404.php",
+		"/D/Works/Verstka/waycon.ru/assets/js/scripts.js",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/functions.php",
+		"/D/Works/Verstka/wp-framework/wordpress/wp-content/themes/wp-framework/functions.php",
+		"/D/Works/Verstka/waycon.ru/html/home.html",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/taxonomy-c.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/single.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/single-product.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/include-table.php",
+		"/D/Works/Verstka/waycon.ru/html/contact.html",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/include-header.php",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-config.php",
+		"/D/Works/Verstka/waycon.ru/assets/js/nivoslider.js",
+		"/D/Works/Verstka/waycon.ru/assets/js/merged-e63560c5c98562d61e805740a4796090-3f02d9f145f40364696ebb97a2536f8b.js",
+		"/D/Works/Verstka/waycon.ru/assets/js/merged-9319a80be32ba03da57c027ba301af92-d11ded322786ab673e71dcc81402fa68.js",
+		"/D/Works/Verstka/waycon.ru/assets/js/merged-7c1c704dfa1a99ba4b09ffcfd0f35b19-0cc29dd197451ab7a885897042ae4013.js",
+		"/D/Works/Verstka/waycon.ru/assets/js/merged-dfde0cd6fb1fb1bffde440c83c436ef3-49796c44474f75a76c60c4cb8fd31c73.js",
+		"/D/Works/Verstka/waycon.ru/assets/js/merged-ccf0a3d4ed0a537364dfccaa6688d7f0-b3eaeac990c9b2e80fa311493738bca8.js",
+		"/D/Works/Verstka/waycon.ru/html/company.html",
+		"/D/Works/Verstka/waycon.ru/assets/scss/98fc249583-4a6b3a3a9e2ac6dd7d692940d8740db0.scss",
+		"/D/Works/Verstka/waycon.ru/assets/scss/merged-fa2e4ccea602199997d33bd463c260f0-429b84ff666c99398da4c19bc08fd0ae.scss",
+		"/D/Works/Verstka/waycon.ru/assets/scss/d6904c8020-85a4957dfa059a513f70afd7ac3ce53d.scss",
+		"/D/Works/Verstka/waycon.ru/assets/scss/c3d18804be-b7efb3cb0c0e58c25f6043f6e8ded62d.scss",
+		"/D/Works/Verstka/waycon.ru/wordpress/wp-content/themes/wp-waycon/style.css",
+		"/D/Works/Verstka/waycon.ru/config/default.json",
+		"/D/Works/Verstka/waycon.ru/gulpfile.babel.js",
+		"/D/Works/Verstka/waycon.ru/wordpress/sxd/backup/DBNAME.sql",
+		"/D/Works/Verstka/waycon.ru/assets/scss/merged-7c572848d257c0492204f32cee00a4ba-69ebcf6d2e4f11da25f5c7df3d3a1fe1.scss",
+		"/D/Works/Verstka/waycon.ru/assets/js/base.js",
+		"/D/Works/Verstka/waycon.ru/assets/scss/merged-18fe91ea8021281bedd3af0805929b78-022c2c051bf34a7c23fa5ca1ddb3be98.scss",
+		"/D/Works/Verstka/waycon.ru/html/page3.html",
+		"/D/Works/Verstka/waycon.ru/html/page2.html",
+		"/D/Works/Verstka/waycon.ru/html/download.html",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/dropbox.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/ordering.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/ordering.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/list.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/list.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/sidebar.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/sidebar.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/top-block.less",
+		"/C/Users/vantoniuk/AppData/Local/Temp/Rar$DIa21436.16293/object-cache.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/orderselectorinput.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controller.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/base.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/Gruntfile.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/header.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/components/header.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/stars.less",
+		"/D/Works/Verstka/wp-framework/assets/scss/_media.scss",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/loaction.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/hosters.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/list.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/JData.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/blocks/footer.less",
+		"/D/Works/Verstka/wp-vozlemorya/wordpress/wp-content/themes/wp-vozlemorya/front-page.php",
+		"/D/Jelastic/jelastic-site/wp-content/themes/salient/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-site/wp-content/themes/salient/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient323/assets/js/gform-customs-handler.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient323/Gruntfile.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/filters.js",
+		"/D/Jelastic/jelastic-wp/wordpress/wp-content/themes/salient/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/dockerSupport.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/onmutate.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/hint.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/binding/exttpl.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/backup.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/data/hostersDockerS.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/data/hosters.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/index.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/map.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/navigator.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/order.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/price.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/topBlock.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/JApp.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/app/Data/Hosters.class.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/api/refreshHosters.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/snippet/loading.ejs",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/package.json",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/crontab.txt",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/signup.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/signup.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/checkbox.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/location.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/dropbox.less",
+		"/D/wp/DBNAME.sql",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/data/dockernative.json",
+		"/D/Jelastic/jelastic-wp/config/default.json",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/details.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/main.less",
+		"/C/Users/vantoniuk/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-2/wp-config.php",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/price-period.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/feedback.js",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/feedback.less",
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/signin.js",
+		"/D/Works/Verstka/olimp.vn.ua/temp.php",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/inc/objects.inc.php",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/templates/sections/objects.html",
+		"/D/Works/Verstka/olimp.vn.ua/www/inc/exclusives.module.inc.php",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/templates/sections/siteconfig.html",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/inc/siteconfig.inc.php",
+		"/D/Works/Verstka/olimp.vn.ua/www/export.php",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/css/index.css",
+		"/D/Works/Verstka/olimp.vn.ua/2018-02-13-16-40.xml",
+		"/D/Works/Verstka/olimp.vn.ua/distric-list.txt",
+		"/D/Works/Verstka/olimp.vn.ua/www/ajax.php",
+		"/D/Works/Verstka/olimp.vn.ua/2018-02-13-16-29.xml",
+		"/D/Works/Verstka/olimp.vn.ua/www/admin/inc/deals.inc.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"waycon.local",
+			"wp-framework.work",
+			"utf8mb4",
+			"uaevakuator.in.ua",
+			"demo.saitobaza.ru",
+			"uaevakuator.in.ua",
+			"<?php echo get_term_link( $category->slug, 'c' ); ?>",
+			"waycon.local",
+			"src=\"./Products - WayCon Positionsmesstechnik_files/",
+			"<div id=\"unten\">",
+			"<div id=\"inhalt\">",
+			"rel_canonical",
+			"canon",
+			"src=\"./Sensor technology for industry and research - WayCon Positionsmesstechnik_files/",
+			"<sc",
+			"waycon.local",
+			"demo7.saitobaza.ru",
+			" class=\"\"",
+			"ebene1",
+			"60px 0 0",
+			"60px auto",
+			"csc-header",
+			"class=\"ce\"",
+			"csc-header csc-header-n1",
+			"all",
+			"a",
+			".act",
+			".sub",
+			"sub",
+			"subpages",
+			"menuequer",
+			"meta",
+			"act",
+			"l1",
+			"/#",
+			"url",
+			"../../typo3conf/ext/imagecycle/res/css/nivoslider/default/arrows.png",
+			"../../typo3conf/ext/imagecycle/res/css/nivoslider/default/bullets.png",
+			"../../typo3conf/ext/imagecycle/res/css/nivoslider/default/loading.gif",
+			"url",
+			"src=\"img/",
+			"src=\"img/schild.png\"",
+			"DE",
+			"waycon",
+			"wp-framework.work",
+			"ubun",
+			"base",
+			"src=\"./Company - WayCon Positionsmesstechnik_files/",
+			"<script src=\"./Company - WayCon Positionsmesstechnik_files/",
+			"<script",
+			"<link",
+			"hoster-info",
+			"45px",
+			".col-order-elements",
+			"top-block-row",
+			"less",
+			"csso",
+			"sSourceBuildVer",
+			"demo",
+			"/base.min.cs",
+			"demo",
+			".order-selector--input",
+			"aList",
+			"cls",
+			"value",
+			"itemPadding",
+			"dropbox",
+			"filters",
+			".order-trigger",
+			".ordering--sorting",
+			"col-order-elements",
+			"sort ",
+			".trigger-component",
+			"aside-column",
+			"order-selector--input",
+			"order-elements",
+			".currency-item",
+			"currency-trigger",
+			"trigger-component",
+			"order-trigger",
+			"list",
+			".top-block-row",
+			"col-order-elements",
+			"top-block-row",
+			"filters",
+			"checkFraudEmail",
+			"fnValidate",
+			"checkFraudEmail",
+			"GetUserIp",
+			"assets",
+			".top-block-row",
+			"backu",
+			"dock",
+			"aRegions",
+			"getRegions",
+			"getHosters",
+			"aRegionsFilter",
+			"oDockerSupport",
+			"consol",
+			"regio",
+			"oDockerSupports",
+			"getDockerSupport",
+			"dockerSupport",
+			"bandwidth",
+			"oDockerSupport",
+			"bandwidth",
+			"location",
+			"sDockerSupport",
+			"oBackup",
+			"aBackups",
+			"oBackups",
+			"oDataHostersDockerS",
+			"oDataHosters",
+			"v",
+			"oDataHosters",
+			"console",
+			"oDataHosters",
+			"aAllHosters",
+			"valueIndexes",
+			"aBackups",
+			"backups",
+			"backup",
+			"aAllHosters",
+			"getHosters",
+			"hos",
+			"cpuType",
+			"dock",
+			"hosters."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"demo7.saitobaza.ru",
+			"instalprom.com",
+			"utf8",
+			"demo6.saitobaza.ru",
+			"demo.saitobaza.ru",
+			"demo7.saitobaza.ru",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/",
+			"demo7.saitobaza.ru",
+			"vinnytsianews.com",
+			"",
+			"../img/arrows.png",
+			"../img/bullets.png",
+			"../img/loading.gif",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"waycon.local",
+			"src=\"img/",
+			"<script src=\"js/",
+			"    ",
+			"demo7.saitobaza.ru",
+			"",
+			"  ",
+			"",
+			"demo_files",
+			"  ",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"src=\"<?php echo get_template_directory_uri(); ?>/js/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			"(../img",
+			"url(\"../fonts",
+			"  ",
+			"",
+			"font-family: 'EuropeCond';",
+			"font-family: 'EuropeCond'",
+			"'../fonts/hinted",
+			"",
+			"superheading",
+			"src=\"<?php echo get_template_directory_uri(); ?>/js/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img",
+			" ",
+			"",
+			"'pfdintextcomppro'",
+			"pfdintextcomppro",
+			"pfdintextcomppro-xthin-webfont.",
+			"pfdintextcomppro-thin-webfont.",
+			"pfdintextcomppro-regular-webfont.",
+			"pfdintextcomppro-medium-webfont.",
+			"pfdintextcomppro-light-webfont.",
+			"$font-path",
+			"pfdintextcomppro-bold-webfont",
+			"  ",
+			"col-xl-12 col-lg-12 col-md-12",
+			"col-xl-2 col-lg-2 col-md-2",
+			"col-xl-4 col-lg-4 col-md-4",
+			"-xl-",
+			"  ",
+			"$gray-dark",
+			"$base-block-shadow",
+			"<li>",
+			"url('../fonts/",
+			"url('../fonts/h",
+			"\"../img/",
+			"?lang=pl",
+			"",
+			"src=\"img",
+			"../img/DayBotRight.png",
+			"../img/DayBotLeft.png",
+			"../img/DayTopRight.png",
+			"../img/DayTopLeft.png",
+			"../img/awwwards_sotd_green_right2x.png",
+			"../img/awwwards_sotd_green_left2x.png",
+			"../img/awwwards_sotd_white_right2x.png",
+			"../img/awwwards_sotd_white_left2x.png",
+			"../img/awwwards_sotd_black_right2x.png",
+			"../img/awwwards_sotd_black_left2x.png",
+			"../img/awwwards_sotd_green_right.png",
+			"../img/awwwards_sotd_green_left.png",
+			"../img/awwwards_sotd_white_right.png",
+			"../img/awwwards_sotd_white_left.png",
+			"../img/awwwards_sotd_black_right.png",
+			"../img/awwwards_sotd_black_left.png",
+			"../img/loader.gif",
+			"../img/mobile/bg_pad.jpg",
+			"../fonts",
+			"",
+			"<script src=\"js",
+			"  ",
+			"",
+			"  ",
+			".php",
+			"наши работы",
+			"url('../fonts/",
+			"src=\"<?php echo get_template_directory_uri(); ?>/img/",
+			"topg--item-chart tooltip\" data-tooltip-content=\"#topg--item-charts\">",
+			"topg--item-reviews tooltip\" data-tooltip-content=\"#topg--item-reviews\"",
+			"Суммарный показатель компетентности",
+			"item-circle tooltip\" title=\"Суммарный показатель\nкомпетентности\" ",
+			"В избранное",
+			"<span title=\"This is my span's tooltip message!\" class=\"topg--item-fav tooltip\"></span>",
+			"widget--rating-chart-",
+			"header--title",
+			"<h5 class=\"widget--recomend-name\">",
+			"<span class=\"topg--item-fav\"></span>",
+			"<a href=\"#\">Услуги сантехника</a><a href=\"#\">Помощь по хозяйству</a>",
+			"href=\"#\"",
+			"</span>\n                </a>\n              </li>\n              <li>\n                <a href=\"#\">\n                <span class=\"widget--servicecat-img\">",
+			"name",
+			"circles-4",
+			"circles-3",
+			"circles-2",
+			"circles-1",
+			"Компания",
+			"\"topg--item topg--item-lister\"",
+			"style=\"background-image: url(img/content/whatoffer",
+			"circles-8",
+			"circles-7",
+			"circles-6",
+			"circles-5",
+			"circles-4",
+			"circles-3",
+			"circles-2",
+			"circles-1",
+			"            <div class=\"topg--item-rating\">\n              <div class=\"topg--item-chart\">\n                <span class=\"topg--item-chart-p\"></span>\n                <span class=\"topg--item-chart-n\"></span>\n                <span class=\"topg--item-chart-m\"></span>\n              </div>\n              <div class=\"topg--item-circle\" id=\"circles-1\"></div>\n              <div class=\"topg--item-reviews\">\n                Отзывы:\n                <span class=\"topg--item-reviews-p\">15</span>\n                <span class=\"topg--item-reviews-n\">20</span>\n                <span class=\"topg--item-reviews-m\">10</span>\n              </div><!-- /.topg--item-reviews -->\n            </div>",
+			"<span>Свободен</span></span>",
+			"Онлайн</span>",
+			"<span>Открыто</span></span>",
+			"<span>Закрыто</span></span>",
+			"<span>Онлайн</span></span>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Gulpfile).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 183.0
+	},
+	"output.sftp":
+	{
+		"height": 149.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 172.0
+	},
+	"pinned_build_system": "",
+	"project": "kims.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Working\\develop\\verstka\\hotels24-blog\\hotels24-blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
