@@ -1,1 +1,43 @@
-"use strict";var Form;Form={},Form.getFormData=function(t){var n;return n=new Object,$.each(t.serializeArray(),function(t,e){return n[e.name]=e.value}),n},$(document).on("ready",function(){return $(document).on("click",'[name="contact-submit"]',function(t){var n,e;return t.preventDefault(),n=$(this).closest("form"),e={_token:n.find('[name="_token"]').val(),fio:n.find('[name="contact-name"]').val(),phone:n.find('[name="contact-phone"]').val(),email:n.find('[name="contact-email"]').val(),message:n.find('[name="contact-comment"]').val()},$.ajax({url:n.attr("action"),type:n.attr("method"),data:e,dataType:"json",success:function(t){return function(t){if("success"===t.status)return n.closest(".contact-popup.main-popup").removeAttr("data-active")}}(this)})}),console.log("init")});
+'use strict';
+
+var Form;
+
+Form = {};
+
+Form.getFormData = function ($form) {
+  var data;
+  data = new Object();
+  $.each($form.serializeArray(), function (i, field) {
+    return data[field.name] = field.value;
+  });
+  return data;
+};
+
+$(document).on("ready", function () {
+  $(document).on('click', '[name="contact-submit"]', function (e) {
+    var $form, data;
+    e.preventDefault();
+    $form = $(this).closest('form');
+    data = {
+      _token: $form.find('[name="_token"]').val(),
+      fio: $form.find('[name="contact-name"]').val(),
+      phone: $form.find('[name="contact-phone"]').val(),
+      email: $form.find('[name="contact-email"]').val(),
+      message: $form.find('[name="contact-comment"]').val()
+    };
+    return $.ajax({
+      url: $form.attr('action'),
+      type: $form.attr('method'),
+      data: data,
+      dataType: 'json',
+      success: function (_this) {
+        return function (response) {
+          if (response.status === 'success') {
+            return $form.closest('.contact-popup.main-popup').removeAttr('data-active');
+          }
+        };
+      }(this)
+    });
+  });
+  return console.log("init");
+});

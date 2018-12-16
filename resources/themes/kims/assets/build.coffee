@@ -125,7 +125,7 @@ gulp.task theme.concat('::coffee'), ->
   .pipe concat 'local.js'
   .pipe(coffee({bare: true}))
   .pipe($_.babel())
-  .pipe(uglify({outSourceMap: true}))
+  # .pipe(uglify({outSourceMap: true}))
   .pipe(gulp.dest(prod_path.js))
   .on('error', plumber)
 
@@ -147,7 +147,7 @@ gulp.task theme.concat('::purejs'), ->
   gulp.src(dev_path.js)
   .pipe(plumber())
   .pipe($_.babel())
-  .pipe(uglify({outSourceMap: true}))
+  # .pipe(uglify({outSourceMap: true}))
   .pipe concat('main.js')
   .pipe(gulp.dest(prod_path.js))
   .on('error', plumber)

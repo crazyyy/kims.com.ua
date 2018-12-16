@@ -324,19 +324,72 @@
 	"buffers":
 	[
 		{
-			"file": "gulpfile.js",
+			"file": "static/assets/scss/styles.scss",
 			"settings":
 			{
-				"buffer_size": 64,
+				"buffer_size": 108907,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/html/index.html",
+			"settings":
+			{
+				"buffer_size": 226651,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n<span id=\"docs-internal-guid-ae474387-d970-9a9b-b6ab-2b389ece4163\"><div dir=\"ltr\"><table><colgroup><col width=\"133\"><col width=\"491\"></colgroup><tbody><tr><td rowspan=\"5\"><p dir=\"ltr\"><span>new</span></p>\n</td>\n<td rowspan=\"5\">\n  <p dir=\"ltr\"><strong>Environment Firewall Management via User Interface</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>New</span><em> Firewall</em><span> section added to environment </span><em>Settings</em><span>, allowing</span><span> </span><span>to manage custom firewall rules via graphical user interface</span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#container-firewall\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Private Network Isolation</strong><span> </span></p>\n  <br>\n  <p dir=\"ltr\"><span>For now, each user account is assigned a dedicated private network, allowing to create isolated environment groups</span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#network-isolation\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Extra Environment Layers for All Languages in Topology Wizard</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>A possibility to add multiple </span><em>Extra</em><span> environment layers and combine both Docker containers and Jelastic-managed stacks within a single environment</span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#extra-environment-layers\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Go Support Integration</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>Extending the list of supported engines and technologies with </span><em>Go</em><span> programming language</span><span></span><span>, delivered by means of</span><span> </span><span>the </span><em>Golang</em><span> application server stack</span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#go-support\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br><strong>UI/UX Improvements</strong>\n  <ul>\n    <li dir=\"ltr\">New option to choose among <em>simultaneous</em> and <em>sequential</em> modes when (re-)deploying or restarting multiple containers within a single node group</li>\n  </ul>\n  <ul>\n    <li dir=\"ltr\">Possibility to select and remove multiple items within the <em>Deployment Manager&rsquo;s</em> archive list at once</li>\n  </ul>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#ui\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br><strong>Deployment &nbsp;Improvements</strong>\n  <ul>\n    <li dir=\"ltr\">Possibility to deploy application from the container&rsquo;s local file</li>\n  </ul>\n  <ul>\n    <li dir=\"ltr\"><span>Allowing Maven build node to operate with projects from within VCS repositories subdirector</span><span></span><span>y</span><span> and/or to compile applications without specifying a target environment</span><span><br></span></li>\n  </ul>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#deploy\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Webhooks for Application Build and Deploy Operations</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>Automation of environment lifecycle management with </span><em>Webhooks</em><span> to execute custom scripts before and/or after application deployment </span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#deployment-hooks\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Web SSH Connection via Guacamole</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>Integration of web-based Guacamole client to access containers via SSH directly through the Jelastic dashboard</span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#web-ssh\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n  <br>\n  <p dir=\"ltr\"><strong>Container Restart Command Standardization</strong></p>\n  <br>\n  <p dir=\"ltr\"><span>Support of unified commands for calling</span><span>&nbsp;</span><em>start</em><span>, </span><em>stop</em><span> and </span><em>restart</em><span> operations </span><span>similarly </span><span>within alll dockerized software stacks</span><span></span></p>\n  <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#commands-standardization\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n    <br data-mce-bogus=\"1\">\n  </p>\n</td>\n</tr>\n<tr></tr>\n<tr></tr>\n<tr></tr>\n<tr></tr>\n<tr>\n  <td>\n    <p dir=\"ltr\"><span>changed</span></p>\n  </td>\n  <td><strong>UI/UX Improvements</strong>\n    <ul>\n      <li dir=\"ltr\">Updated layout for Jelastic API documentation UI</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Updated UI for the <em>502</em> error pages</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Displaying node group and comprised stack(s) name for layers and a dedicated icon for the master node</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">A possibility to expand the <em>Environment Management</em> panel with a double-click</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Allowed scrolling of the <em>Filters</em> section content in <em>Billing history</em> tab in case it doesn not fit the allocated space frame</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Dashboard notification for optional (but not forced) access to the <em>(re-)deploy</em> and <em>restart</em> actions log after the appropriate operation execution</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Ability to accumulate and view node <em>Statistics</em> data with a 1-month period</li>\n    </ul>\n    <ul>\n      <li dir=\"ltr\">Updating the NGINX server logo in dashboard to its latest official version</li>\n    </ul>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#ui\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Composer Dependency Manager for PHP Servers</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Integration of the </span><em>Composer</em><span> dependency manager to the default Apache and NGINX-PHP application server builds</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#php-composer\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>HTTP 2.0 Support by Jelastic Shared Balancer and Environment-Dedicated Load Balancers</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Integration of the HTTP 2.0 protocol support for processing incoming requests to both common Jelastic Shared Balancer and dedicated load-balancer nodes within user environments</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#http2-support\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Logging of the Request Source Port Number</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Fetching and storing target port number of &nbsp;each incoming request which has been received by the platform&rsquo;s Shared Load Balancer</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#ports-logging\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Cloud Scripting Engine Optimization</strong><span> </span></p>\n    <br>\n    <p dir=\"ltr\"><span>Automatic provisioning of the default API parameters and case-insensibility integration</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#cs-optimization\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Short Aliases for Namespaces in API List for Tokens</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Possibility to define the allowed API methods during tokens management by means of namespace aliases</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#api-namespace-aliases\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>AutoFS Package to Support Mounting on Certified Templates</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Reducing the number of permanently active mount points with the </span><em>AutoFS</em><span> tool and its &ldquo;as-needed&rdquo; approach</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#autofs-mounting\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Add-ons Button for the Load Balancer Layer</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Permanent display of the </span><em>Add-ons</em><span> button for the nodes within load balances layer</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#load-balancer-addons\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Adding VCS Directory Shortcut to the List of Favorites</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Adding the </span><em>/var/lib/jelastic/vcs</em><span> directory to the list of default shortcuts within containers, created upon Jelastic-managed stack templates</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#vcs-folder-shortcut\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Clarification for Docker Container Credentials Email</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Updated </span><em>Docker container created</em><span> email template to help new users with further possible steps on its use and management</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#docker-credentials-email\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Detailed Response for the Image not Found Issue</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Extended description for the &ldquo;</span><em>Image not found</em><span>&rdquo; error during Docker containers creation</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#error-clarification\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Software Stack Versions</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Actualized list of supported OS templates and software stack versions</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#software\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n  </td>\n</tr>\n<tr>\n  <td>\n    <p dir=\"ltr\"><span>fixed</span></p>\n  </td>\n  <td>\n    <p dir=\"ltr\"><strong>Locked Environment Issue Handling</strong><span> </span></p>\n    <br>\n    <p dir=\"ltr\"><span>There was an error when trying to manage container with the ongoing backup process</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#locked-environment\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n    <br>\n    <p dir=\"ltr\"><strong>Private Docker Container Credentials Change</strong></p>\n    <br>\n    <p dir=\"ltr\"><span>Custom Docker containers deployed from within a custom user registry, could not be scaled after changing the access credentials</span></p>\n    <p dir=\"ltr\" style=\"text-align: right;\"><a href=\"https://docs.jelastic.com/release-notes-54#private-registry-credentials\" target=\"_blank\"><span>Learn more &gt;&gt;</span></a>\n      <br data-mce-bogus=\"1\">\n    </p>\n  </td>\n</tr>\n</tbody>\n</table>\n</div>\n</span>\n",
+			"settings":
+			{
+				"buffer_size": 12579,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "gulpfile.coffee",
+			"file": "static/assets/js/main.js",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 44033,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/themes/kims/assets/js/infobubble.js",
+			"settings":
+			{
+				"buffer_size": 47659,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/themes/kims/assets/build.coffee",
+			"settings":
+			{
+				"buffer_size": 5637,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/themes/kims/assets/js/contacts.js",
+			"settings":
+			{
+				"buffer_size": 5892,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "1920 (full hd)\n1. Увеличиь размер шрифта меню https://monosnap.com/file/gRTYv6SBqMDDIgofx7YqzhkbhuXuA5.png\n1а. Город определять по IP пользователя и сразу показывать его в меню справа, также в четвертом блоке выбирать активным ближайший город к пользователю. \nВ меню на основании опеределения города показывать активный телефон\n1б. выпадающее меню также увеличить и выровнять, убрав лишние элементы https://monosnap.com/file/71LUFaE9E6HFetaIAFWG7ja0XsEjXr.png \n2. На втором блоке убрать большой отступ от шапки, выровнять слайдер, что бы он полностью вмещался в левый блок https://monosnap.com/file/tDgnlV10ebUEc0DFqi53CaT0yiMVux.png \n3. На втором блоке справа увеличить логотипы партнеров, освободить место убрав стрелки навигации слайдера\n4. На третьем блоке прайс лист выводить максимальной высоты, что бы вмещлись все виды услуг https://monosnap.com/file/FSuzzYgc8xPGAWntVCgAFUUEkZT58Q.png  и сам прайслист https://monosnap.com/file/RZ8zOWI0nRCoa1aTO4lLyidAxxF5Y6.png \n5. Там же при открытом прайслисте добавиь возможность его закрывать и возвращаться обратно на стартовый третий блок https://monosnap.com/file/O3qYLKOdy13CgCgWzM50bCmth9in9r.png для правой части добавить анимацию наведения кнопки \"изучить прайс\"\n6. На четвертом блоке при изменении города убрать \"прыжки\" https://monosnap.com/file/O3qYLKOdy13CgCgWzM50bCmth9in9r.png Добавить возможность увеличить фотографию по клику. Под выбором городов убрать текст, он не несёт полезной информации. Было бы неплохо добавить время работы или количество пунктов приёма \n7. там же изменить положение изображения (текст перенести под фотографию) https://monosnap.com/file/r2S0tGq1lbZiLTXyWv9bc7nRxEFEmC.png\n8. Телефоны сделать активными, адресс вмещать полностью и убрать значек телефона https://monosnap.com/file/waRj7D8TONhOSXIq0dA63WISIPWXBW.png \n9. Там же форма \"свяжитесь с нами\" - убрать текст \"давайте все исправим\", город определять по IP и не показывать пользователю, оставить Имя, совместить телефон/почту (а выбор, что пользователю введет), уменшить жирность шрифта и сузить форму, сделать её вертикальной. \nПоказывать пользователю какие поля обязательные и если он отсылает пусту форму - показывать в чём ошибка или что форма отправилась нормально.\nПосле отправки формы выводить \"среднее время реакции 30 минут, вы можете просмотреть нашу страничку в фейсбук/инстаграм или позвонить менеджеру +38888888888 в вашем городе Город\" (телефон определять по городу), \n10. При просмотре адресов пункта приёма убрать стрелочку внизу https://monosnap.com/file/xsDcmW2X6834kMOC8qGtojEyWLaghI.png\nкарту увеличить, что бы было видно улицы города, телефоны сделать активными. Карту Можно развенуть шире, а виды пунктов приема и адреса сделать под картой горизонтально. \nМожно добавить также вывод города. \n11. В франшизе увеличить текст, очень мелкий. Презентацию лучше не скачивать, а показывать в новом окне с возможностью скачать. \nКнопку \"Узнать больше\" уменьшить, перенести к кнопкам связаться и скачать презентацию, ссылку сделать на конкретную страницу сайта http://kims.ua/franchising/ \n12. Все моджальные окна сделать закрывающимися по нажатию кнопки \"Esc\"\n13. В меню там где выбор языков показать сразу два языка и опеределять его по языку пользователя. \n14. При клику на \"Эко-проект\" видно что при прокрутке прокручивается фон сайта. Если включить видео и закрыть окно - звук не пропадает. Запуск второго видео не выключает первое. Там же блок второго видео кривой https://monosnap.com/file/Xs9PmA4d3oO4hlS92mJXjbi5I7K36v.png \nИ показывает только Одессу \nGalaxy Note 8 (1440)\n15. Исправить перенос текста https://monosnap.com/file/fmtAlHmsDDYTLL7NjKAQ0pJscrSkMx.png и убрать мелкий текст на фоне, подправить кнопку \"узнать больше\", увеличить текст описания, убрать отступ от шапки, увеличить пункты меню, исправить \"исправить сейчас\"\n16. Второй блок разделить на два горизонтальных https://monosnap.com/file/u1WqAHBMdV6bWlVYDqQBpoYhmmnQqn.png\n17. Третий блок также сделать горизонтальными https://monosnap.com/file/uXqi7Nj8b2bzEKyGHwH9xe1zCSx2ZC.png Сделать переключение и отображение прайсов по принципу вертикальных табов\n18. В блоке городов увеличить размеры городов и отступы, структурировать телефоны для удобства клика\n\nТестировала на таких разрешениях\n3840\n1920 \n1600 \n1440  (десктоп и мобильный)\n1366\n1125\n720\n375\n360\n\n---\n\nОт себя добавлю - изображения не оптимизированы, общее время загрузки сайта в среднем 40 секунд, при первой отрисовке в 13-14 секунд (рекомендуется первая отрисовка на 2-3 секунде и общее время загрузки не больше 10-15).\nКоличество стилей (380кб при норме в сотню максимум) и скриптов (3,2 мегабайта при норма где-то в 300 максимум для такого сайта) огромное, не уверен что все используются, но также сложно сказать как сильно можно будет почистить \nАнализ гугловыми инструментами очень печальный \nhttps://developers.google.com/speed/pagespeed/insights/?hl=uk&url=http%3A%2F%2Fwww.kims.com.ua&tab=mobile",
+			"settings":
+			{
+				"buffer_size": 4898,
+				"line_ending": "Windows",
+				"name": "1920 (full hd)"
 			}
 		}
 	],
@@ -348,9 +401,21 @@
 	"command_palette":
 	{
 		"height": 375.0,
-		"last_filter": "insta",
+		"last_filter": "insl",
 		"selected_items":
 		[
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -424,10 +489,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"remo",
-				"Package Control: Remove Package"
-			],
-			[
 				"remov",
 				"Package Control: Remove Package"
 			],
@@ -438,10 +499,6 @@
 			[
 				"au",
 				"Autoprefix CSS"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"tor",
@@ -610,11 +667,48 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Works/Verstka/kims.com.ua"
+		"/D/Works/Verstka/kims.com.ua",
+		"/D/Works/Verstka/kims.com.ua/resources",
+		"/D/Works/Verstka/kims.com.ua/resources/themes",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/assets",
+		"/D/Works/Verstka/kims.com.ua/static",
+		"/D/Works/Verstka/kims.com.ua/static/assets",
+		"/D/Works/Verstka/kims.com.ua/static/assets/js",
+		"/D/Works/Verstka/kims.com.ua/static/assets/scss",
+		"/D/Works/Verstka/kims.com.ua/static/html",
+		"/D/Works/Verstka/kims.com.ua/static/html/css"
 	],
 	"file_history":
 	[
+		"/D/Works/Verstka/kims.com.ua/index.html",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/assets/js/main.js",
+		"/D/Works/Verstka/kims.com.ua/public/assets/themes/admin/js/main.js",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/asset/public/assets/themes/kims/js/main.js",
+		"/D/Works/Verstka/kims.com.ua/static/assets/js/local.js",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/asset/public/assets/themes/kims/js/local.js",
+		"/D/Works/Verstka/kims.com.ua/public/assets/themes/kims/js/main.js",
+		"/D/Works/Verstka/kims.com.ua/static/assets/js/jquery.js",
+		"/D/Works/Verstka/kims.com.ua/static/assets/js/app.js",
+		"/D/Works/Verstka/kims.com.ua/static/assets/js/main.js",
+		"/D/Works/Verstka/likerey.com/__tmp/likery.sql",
+		"/D/Works/Verstka/kims.com.ua/static/html/index.html",
+		"/D/Works/Verstka/kims.com.ua/static/index.html",
+		"/D/Works/Verstka/wp-framework/assets/js/slick.js",
+		"/D/Works/Verstka/wp-framework/assets/js/scripts.js",
+		"/D/Works/Verstka/wp-framework/assets/js/perfect-scrollbar.jquery.min.js",
+		"/D/Works/Verstka/wp-framework/assets/js/main.js",
+		"/D/Works/Verstka/wp-framework/assets/js/local.js",
+		"/D/Works/Verstka/wp-framework/assets/js/jquery.fullpage.js",
+		"/D/Works/Verstka/wp-framework/assets/js/jquery.js",
+		"/D/Works/Verstka/wp-framework/assets/js/flexibility.js",
 		"/D/Works/Verstka/kims.com.ua/gulpfile.js",
+		"/D/Works/Verstka/kims.com.ua/public/assets/themes/kims/js/app.js",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/partials/adv.blade.php",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/widgets/banner/index.blade.php",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/config.php",
+		"/D/Works/Verstka/kims.com.ua/package.json",
+		"/D/Works/Verstka/kims.com.ua/resources/themes/kims/assets/react/game/actions/Game.js",
 		"/D/Works/OpenServer/domains/kims.local/index.php",
 		"/D/xu269625.ftp.tools/config/auth.php",
 		"/D/xu269625.ftp.tools/gulpfile.coffee",
@@ -714,38 +808,11 @@
 		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/controllers/topBlock.js",
 		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/JApp.js",
 		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/app/Data/Hosters.class.php",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/api/refreshHosters.php",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/templates/snippet/loading.ejs",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/package.json",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/crontab.txt",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/signup.js",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/signup.less",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/checkbox.js",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/location.less",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/dropbox.less",
-		"/D/wp/DBNAME.sql",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/data/dockernative.json",
-		"/D/Jelastic/jelastic-wp/config/default.json",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/details.less",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/main.less",
-		"/C/Users/vantoniuk/AppData/Local/Temp/FileZillaPortableTemp/fz3temp-2/wp-config.php",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/price-period.less",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/feedback.js",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/less/components/feedback.less",
-		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/src/assets/js/components/signin.js",
-		"/D/Works/Verstka/olimp.vn.ua/temp.php",
-		"/D/Works/Verstka/olimp.vn.ua/www/admin/inc/objects.inc.php",
-		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/templates/sections/objects.html",
-		"/D/Works/Verstka/olimp.vn.ua/www/inc/exclusives.module.inc.php",
-		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/templates/sections/siteconfig.html",
-		"/D/Works/Verstka/olimp.vn.ua/www/admin/inc/siteconfig.inc.php",
-		"/D/Works/Verstka/olimp.vn.ua/www/export.php",
-		"/D/Works/Verstka/olimp.vn.ua/www/admin/themes/default/css/index.css",
-		"/D/Works/Verstka/olimp.vn.ua/2018-02-13-16-40.xml"
+		"/D/Jelastic/jelastic-site-apps/app-jelastic-cloud-union/src/main/client-script/api/refreshHosters.php"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -759,6 +826,53 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li dir=\"ltr\">",
+			"<span>Learn more &gt;&gt;</span></a></p>",
+			"<p dir=\"ltr\">",
+			"&gt;&gt;</a></p>",
+			"<p dir=\"ltr\" style=\"text-align: right;\"><a",
+			"</strong></p>",
+			"<p dir=\"ltr\"><strong>",
+			"section about fp-section",
+			"fp-section",
+			"section services fp-section",
+			"A1_",
+			"A1_РџРРћРЎРњРћРўР",
+			"A1_РџР РћРЎРњРћРўР ",
+			"data-",
+			"main-popup",
+			"<scr",
+			"closeModal",
+			"consol",
+			"init",
+			"$fra",
+			"main",
+			"uglify",
+			"main",
+			"console-",
+			"initPage",
+			"city-switch",
+			"<sc",
+			"'init'",
+			"init",
+			"NODE_ENV",
+			"demo6.saitobaza.ru",
+			"../images/",
+			"../fonts/fontello/",
+			"../fonts/TT-Firs/",
+			"ajax-reload-prices",
+			"ajax-reload-prices ",
+			"link",
+			"src=\"./index_files/",
+			"<img",
+			"&#39;",
+			"img",
+			"href=\"./index_files/",
+			"link",
+			"script",
+			".завантаження",
+			"department",
+			"setDepartmentContacts",
 			"waycon.local",
 			"wp-framework.work",
 			"utf8mb4",
@@ -839,54 +953,7 @@
 			"currency-trigger",
 			"trigger-component",
 			"order-trigger",
-			"list",
-			".top-block-row",
-			"col-order-elements",
-			"top-block-row",
-			"filters",
-			"checkFraudEmail",
-			"fnValidate",
-			"checkFraudEmail",
-			"GetUserIp",
-			"assets",
-			".top-block-row",
-			"backu",
-			"dock",
-			"aRegions",
-			"getRegions",
-			"getHosters",
-			"aRegionsFilter",
-			"oDockerSupport",
-			"consol",
-			"regio",
-			"oDockerSupports",
-			"getDockerSupport",
-			"dockerSupport",
-			"bandwidth",
-			"oDockerSupport",
-			"bandwidth",
-			"location",
-			"sDockerSupport",
-			"oBackup",
-			"aBackups",
-			"oBackups",
-			"oDataHostersDockerS",
-			"oDataHosters",
-			"v",
-			"oDataHosters",
-			"console",
-			"oDataHosters",
-			"aAllHosters",
-			"valueIndexes",
-			"aBackups",
-			"backups",
-			"backup",
-			"aAllHosters",
-			"getHosters",
-			"hos",
-			"cpuType",
-			"dock",
-			"hosters."
+			"list"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -894,6 +961,20 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<li>",
+			"Learn more</a>",
+			"<p>",
+			"</a>",
+			"<a",
+			"</h6>",
+			"<h6>",
+			"likesbase.com",
+			"../img/",
+			"../fonts/",
+			"src=\"img/",
+			"'",
+			"href=\"css/",
+			"",
 			"demo7.saitobaza.ru",
 			"instalprom.com",
 			"utf8",
@@ -1007,21 +1088,7 @@
 			"circles-1",
 			"Компания",
 			"\"topg--item topg--item-lister\"",
-			"style=\"background-image: url(img/content/whatoffer",
-			"circles-8",
-			"circles-7",
-			"circles-6",
-			"circles-5",
-			"circles-4",
-			"circles-3",
-			"circles-2",
-			"circles-1",
-			"            <div class=\"topg--item-rating\">\n              <div class=\"topg--item-chart\">\n                <span class=\"topg--item-chart-p\"></span>\n                <span class=\"topg--item-chart-n\"></span>\n                <span class=\"topg--item-chart-m\"></span>\n              </div>\n              <div class=\"topg--item-circle\" id=\"circles-1\"></div>\n              <div class=\"topg--item-reviews\">\n                Отзывы:\n                <span class=\"topg--item-reviews-p\">15</span>\n                <span class=\"topg--item-reviews-n\">20</span>\n                <span class=\"topg--item-reviews-m\">10</span>\n              </div><!-- /.topg--item-reviews -->\n            </div>",
-			"<span>Свободен</span></span>",
-			"Онлайн</span>",
-			"<span>Открыто</span></span>",
-			"<span>Закрыто</span></span>",
-			"<span>Онлайн</span></span>"
+			"style=\"background-image: url(img/content/whatoffer"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1037,19 +1104,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "gulpfile.js",
+					"file": "static/assets/scss/styles.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 64,
+						"buffer_size": 108907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9,
-								15
+								17114,
+								17114
 							]
 						],
 						"settings":
@@ -1063,36 +1130,26 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1103,6 +1160,177 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/html/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223961,
+								223961
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 95239.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1112,16 +1340,58 @@
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content"
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
-							"encoding_helper_encoding": "UTF-8",
-							"encoding_thread_running": true,
+							"default_dir": "D:\\Works\\Verstka\\kims.com.ua",
+							"encoding_helper_encoding": "",
 							"incomplete_sync": null,
+							"is_xml": false,
 							"remote_loading": false,
-							"side_bar_folders_auto_load_folder": 1,
 							"synced": false,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/JavaScript (Gulpfile).sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1131,12 +1401,112 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "gulpfile.coffee",
-					"semi_transient": true,
+					"buffer": 3,
+					"file": "static/assets/js/main.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 971,
+						"buffer_size": 44033,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1231,
+								1231
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"ensure_newline_at_eof_on_save": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/themes/kims/assets/js/infobubble.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47659,
 						"regions":
 						{
 						},
@@ -1153,21 +1523,11 @@
 							"apply_syntax_touched": true,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1178,11 +1538,6 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1193,29 +1548,45 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
 							"encoding_helper_encoding": "UTF-8",
 							"encoding_thread_running": true,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"side_bar_folders_auto_load_folder": 1,
 							"synced": false,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/CoffeeScript (Gulpfile).sublime-syntax",
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -1223,7 +1594,296 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/themes/kims/assets/build.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4674,
+								4678
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/themes/kims/assets/js/contacts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2620,
+								2620
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"side_bar_folders_auto_load_folder": 1,
+							"synced": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1960.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"apply_syntax_touched": true,
+							"auto_name": "1920 (full hd)",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Phoenix (SL).tmTheme",
+							"default_dir": "D:\\Works\\Verstka\\kims.com.ua",
+							"encoding_helper_encoding": "",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1284,7 +1944,7 @@
 	"project": "kims.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":

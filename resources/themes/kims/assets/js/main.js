@@ -420,11 +420,11 @@ $('#js-fullpage').fullpage( {
 
         menu: '#js-nav',
         anchors: ['main', 'about', 'services', 'contacts'],
-        
+
         verticalCentered: false,
-        
+
         sectionSelector: '.section',
-        
+
         afterLoad: function(index, anchorLink) {
         let $header = $('.header'),
         $headerLogo = $header.find('.header__logo'),
@@ -448,7 +448,7 @@ $('#js-fullpage').fullpage( {
         $footerCopy = $('.footer__copy'),
         $footerAuthor = $('.footer__author'),
         $headerProm = $('.header__prom');
-        
+
         switch (anchorLink) {
         case 'main':
         $headerLogo.attr('data-section', 'others');
@@ -469,11 +469,11 @@ $('#js-fullpage').fullpage( {
         $footerAuthor.attr('data-section', 'others');
         $headerRightCab.attr('data-section', 'others');
         $headerProm.attr('data-section', 'white');
-        
+
         $.fn.fullpage.setAutoScrolling(true);
-        
+
         break;
-        
+
         case 'about':
         $headerLogo.attr('data-section', 'white');
         $kimsBlog.attr('data-section', 'white');
@@ -493,11 +493,11 @@ $('#js-fullpage').fullpage( {
         $footerCopy.attr('data-section', 'white');
         $footerAuthor.attr('data-section', 'others');
         $headerProm.attr('data-section', 'white');
-        
+
         $.fn.fullpage.setAutoScrolling(true);
-        
+
         break;
-        
+
         case 'services':
         $headerLogo.attr('data-section', 'others');
         $kimsBlog.attr('data-section', 'others');
@@ -517,11 +517,11 @@ $('#js-fullpage').fullpage( {
         $footerCopy.attr('data-section', 'others');
         $footerAuthor.attr('data-section', 'white');
         $headerProm.attr('data-section', 'blue');
-        
+
         $.fn.fullpage.setAutoScrolling(true);
-        
+
         break;
-        
+
         case 'contacts':
         $headerLogo.attr('data-section', 'white');
         $kimsBlog.attr('data-section', 'white');
@@ -541,9 +541,9 @@ $('#js-fullpage').fullpage( {
         $footerCopy.attr('data-section', 'white');
         $footerAuthor.attr('data-section', 'map');
         $headerProm.attr('data-section', 'blue');
-        
+
         $.fn.fullpage.setAutoScrolling(false);
-        
+
         break;
         }
      }
